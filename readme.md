@@ -2,16 +2,15 @@ Based on Kali rolling https://hub.docker.com/r/kalilinux/kali-rolling
 
 Run
 ```
-docker run -it -rm markpepapa/kali-docker /bin/bash
+docker run -it --rm -w /data -v $(pwd):/data markpepapa/kali-docker /bin/bash
 ```
 
 Installed Applications:
-- Metasploit
-- SQLmap
-- Drozer
-- Nikto
-- Crackmapexec
-- Empire
-- Bettercap
-- Dirb
-- Hydra
+- offsec-awae: Advanced Web Attacks and Exploitation
+- offsec-pwk: Penetration Testing with Kali
+- crackmapexec
+- empire
+
+References:
+
+https://tools.kali.org/kali-metapackages

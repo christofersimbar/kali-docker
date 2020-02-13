@@ -2,6 +2,8 @@ FROM kalilinux/kali-rolling:latest
 
 MAINTAINER markpepapa
 
+ENV DEBIAN_FRONTEND=noninteractive
+
 RUN apt-get -y update && apt-get -y dist-upgrade
 RUN apt-get -y install bash-completion
 RUN apt-get -y install offsec-awae
