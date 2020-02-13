@@ -4,16 +4,6 @@ LABEL maintainer="Christofer Simbar"
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-EXPOSE 21
-EXPOSE 22
-EXPOSE 53
-EXPOSE 80
-EXPOSE 443
-EXPOSE 3306
-EXPOSE 4444
-EXPOSE 5900
-EXPOSE 8080
-
 RUN apt-get -y update && apt-get -y dist-upgrade
 RUN apt-get -y install bash-completion
 RUN apt-get -y install offsec-awae
