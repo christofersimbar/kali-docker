@@ -1,6 +1,6 @@
 FROM kalilinux/kali-rolling:latest
 
-MAINTAINER markpepapa
+LABEL maintainer="Christofer Simbar"
 
 ENV DEBIAN_FRONTEND=noninteractive
 
