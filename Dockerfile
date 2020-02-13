@@ -4,6 +4,8 @@ MAINTAINER markpepapa
 
 ENV DEBIAN_FRONTEND=noninteractive
 
+EXPOSE 22,53,80,443,4444,5900,8080
+
 RUN apt-get -y update && apt-get -y dist-upgrade
 RUN apt-get -y install bash-completion
 RUN apt-get -y install offsec-awae
