@@ -6,8 +6,8 @@ docker run -it --network host --rm -w /data -v $(pwd):/data markpepapa/kali-dock
 ```
 
 Installed Applications:
-- offsec-awae: Advanced Web Attacks and Exploitation
-- offsec-pwk: Penetration Testing with Kali
+- Kali metapackage **offsec-awae**: Advanced Web Attacks and Exploitation
+- Kali metapackage **offsec-pwk**: Penetration Testing with Kali
 - crackmapexec
 - empire
 
